@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Seven – Tailwind Activity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-zinc-950 text-zinc-100">
+    <main class="mx-auto flex max-w-5xl flex-col gap-12 p-10">
+      <section class="text-center">
+        <h1 class="text-3xl font-semibold tracking-tight">Dashboard Polishing</h1>
+        <p class="mt-2 text-zinc-400">
+          Use Tailwind utilities to refine the visual language of this analytics snapshot.
+        </p>
+      </section>
+
+      <!-- Task 1 (Top Stats Panel): On the outer `section.analytics-hero`, apply
+           `bg-gradient-to-br from-emerald-500/20 via-emerald-500/5 to-transparent` with `border border-emerald-400/30`.
+           These utilities create a soft gradient wash and translucent border that hint at success metrics. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2sx -->
+      <section class="analytics-hero rounded-3xl p-10">
+        <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+          <div>
+            <h2 class="text-4xl font-semibold">Weekly Growth</h2>
+            <p class="mt-3 max-w-lg text-zinc-400">
+              Highlight the hero with gradients to communicate momentum in the key metric.
+            </p>
+          </div>
+          <div class="flex items-center gap-4">
+            <span class="rounded-full bg-emerald-400/20 px-4 py-2 font-semibold text-emerald-300">
+              +18.3%
+            </span>
+            <button class="rounded-full px-6 py-3 font-semibold">
+              View Report
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 2 (Report Button): Add `border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/20 transition`
+           to the `button` above. This pairing stresses the primary action, reinforces the accent color, and
+           introduces a hover feedback with a smooth fade-in. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2sy -->
+
+      <!-- Task 3 (Quick Stats Grid): For the `div.quick-stats`, apply `grid gap-4 sm:grid-cols-2 xl:grid-cols-4`.
+           The grid utilities scale the card layout from one column to four, while `gap-4` manages spacing rhythm. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2sz -->
+      <section>
+        <h3 class="text-2xl font-semibold">Quick Stats</h3>
+        <div class="quick-stats mt-6">
+          <article class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6">
+            <p class="text-sm uppercase tracking-wide text-zinc-500">Active Users</p>
+            <p class="mt-3 text-3xl font-semibold">12,540</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6">
+            <p class="text-sm uppercase tracking-wide text-zinc-500">Avg. Session</p>
+            <p class="mt-3 text-3xl font-semibold">5m 12s</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6">
+            <p class="text-sm uppercase tracking-wide text-zinc-500">Conversion</p>
+            <p class="mt-3 text-3xl font-semibold">3.4%</p>
+          </article>
+          <article class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6">
+            <p class="text-sm uppercase tracking-wide text-zinc-500">Bounce Rate</p>
+            <p class="mt-3 text-3xl font-semibold">28%</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Task 4 (Quick Stats Cards): Target each `article` in Quick Stats to add
+           `hover:border-emerald-400/40 hover:shadow-[0_20px_40px_-24px_rgba(16,185,129,0.45)] transition`.
+           These utilities create a glow-like hover interaction, conveying interactivity. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2s0 -->
+
+      <section class="rounded-3xl border border-zinc-800 bg-zinc-900/60 p-10">
+        <div class="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+          <div class="max-w-xl">
+            <h3 class="text-2xl font-semibold">Retention Insights</h3>
+            <p class="mt-3 text-zinc-400">
+              Soft lighting effects keep dark UI approachable; combine transparency and backdrop filters to boost depth.
+            </p>
+          </div>
+          <div class="h-48 w-full rounded-2xl border border-zinc-800 bg-gradient-to-br from-zinc-800 via-zinc-900 to-black"></div>
+        </div>
+      </section>
+
+      <!-- Task 5 (Retention Glassmorphism): Add `backdrop-blur-lg` to the Retention Insights section (`section.rounded-3xl...p-10`) so the panel gains a frosted-glass sheen over the dark background. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2s1 -->
+
+      <!-- Task 6 (Bounce Rate Accent): Apply `text-rose-400` to the percentage inside the "Bounce Rate" card to spotlight the metric trend. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2s2 -->
+
+      <!-- Task 7 (Dashboard Texture): Enhance the `<body>` with `bg-gradient-to-br from-zinc-950 via-black to-zinc-900` to add atmospheric depth behind the panels. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2s3 -->
+
+      <!-- Task 8 (Responsive Title Scale): Update the main heading `<h1>` with `text-3xl md:text-5xl` so it scales elegantly from mobile to desktop. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXNldmVuLXRhc2s4 -->
+    </main>
+  </body>
+</html>
+

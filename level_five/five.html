@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Five – Tailwind Activity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-slate-100 text-slate-900">
+    <main class="mx-auto max-w-6xl space-y-14 p-10">
+      <header class="space-y-3 text-center">
+        <h1 class="text-3xl font-bold">Creative Studio Showcase</h1>
+        <p class="mx-auto max-w-3xl text-slate-600">
+          Combine grid layouts, layered imagery, and motion cues to highlight recent projects.
+        </p>
+      </header>
+
+      <!-- Task 1 (Feature Grid Shell): Add `grid gap-10 rounded-4xl bg-white/80 p-10 shadow-[0_40px_100px_-60px_rgba(15,23,42,0.65)] md:grid-cols-[1.1fr_1fr]`
+           to `.feature-grid`. This creates a polished, asymmetrical card layout with a cinematic drop shadow. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazE= -->
+      <section class="feature-grid">
+        <div class="space-y-6">
+          <div class="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-4 py-1 text-sm font-medium text-indigo-700">
+            <span class="h-2 w-2 rounded-full bg-indigo-500"></span>
+            Spotlight Project
+          </div>
+          <h2 class="text-4xl font-semibold leading-tight">Elevating onboarding with motion and storytelling.</h2>
+          <p class="text-slate-600">
+            Tailor your panels with responsive grids and layered shadows that direct attention to hero imagery and call-to-actions.
+          </p>
+          <div class="flex flex-wrap items-center gap-4">
+            <button class="rounded-full px-7 py-3 font-semibold">
+              View case study
+            </button>
+            <a href="#" class="text-indigo-700 underline">
+              Share feedback
+            </a>
+          </div>
+        </div>
+        <div class="relative overflow-hidden rounded-4xl">
+          <img
+            src="https://images.unsplash.com/photo-1523359346063-d879354c0ea5?auto=format&fit=crop&w=1400&q=80"
+            alt="Studio workspace"
+            class="h-full w-full object-cover"
+          />
+        </div>
+      </section>
+
+      <!-- Task 2 (CTA Button): Apply `bg-indigo-600 text-white hover:bg-indigo-500 transition`
+           to the "View case study" button to emphasize the primary action. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazI= -->
+
+      <!-- Task 3 (Secondary Link): Add `text-indigo-600 hover:text-indigo-500 font-semibold`
+           to the "Share feedback" link for visual hierarchy. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazM= -->
+
+      <!-- Task 4 (Feature Image): Apply `rounded-4xl shadow-2xl` to the project image to align with the grid’s styling. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazQ= -->
+
+      <section class="rounded-4xl border border-slate-200 bg-white p-10">
+        <div class="grid gap-6 md:grid-cols-3">
+          <article class="rounded-3xl border border-slate-100 bg-slate-50 p-6">
+            <h3 class="text-xl font-semibold">Design systems</h3>
+            <p class="mt-3 text-sm text-slate-600">
+              Component libraries, token automation, multi-brand orchestration.
+            </p>
+          </article>
+          <article class="rounded-3xl border border-slate-100 bg-slate-50 p-6">
+            <h3 class="text-xl font-semibold">Product storytelling</h3>
+            <p class="mt-3 text-sm text-slate-600">
+              Narrative-driven UI demos with guided animations and scroll cues.
+            </p>
+          </article>
+          <article class="rounded-3xl border border-slate-100 bg-slate-50 p-6">
+            <h3 class="text-xl font-semibold">Growth experiments</h3>
+            <p class="mt-3 text-sm text-slate-600">
+              Multivariate landing pages, onboarding personalization, A/B frameworks.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Task 5 (Card Stagger): Add `md:-mt-6 md:translate-y-3` to the middle `<article>` in the services grid to offset it upward and create depth. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazU= -->
+
+      <!-- Task 6 (Feature Grid Texture): Layer `bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.14),_transparent_60%)]` onto `.feature-grid` to introduce a subtle studio lighting pattern. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazY= -->
+
+      <!-- Task 7 (Service Card Hover): Target the lower section’s `<article>` elements with `transition-transform hover:-translate-y-2` so they lift on hover. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazc= -->
+
+      <!-- Task 8 (Headline Wrapping): Apply `text-pretty` to the main feature headline (`h2`) so longer copy reflows with balanced line breaks. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWZpdmUtdGFzazg= -->
+    </main>
+  </body>
+</html>
+

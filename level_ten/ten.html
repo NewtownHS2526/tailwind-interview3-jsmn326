@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Ten – Tailwind Activity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-slate-100 text-slate-900">
+    <main class="mx-auto flex max-w-5xl flex-col gap-12 p-10">
+      <header class="text-center">
+        <h1 class="text-3xl font-bold">Portfolio Detail Page</h1>
+        <p class="mt-3 text-slate-600">
+          Combine layout, typography, and interaction utilities to polish this case study view.
+        </p>
+      </header>
+
+      <!-- Task 1 (Hero Media Block): Apply `rounded-[2.5rem] overflow-hidden border border-slate-300 shadow-xl`
+           to `.hero-media`. These utilities sculpt a cinematic frame with soft rounding and crisp border definition. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrMQ== -->
+      <section class="hero-media">
+        <img
+          src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=1600&q=80"
+          alt="Product showcase"
+          class="h-full w-full object-cover"
+        />
+      </section>
+
+      <!-- Task 2 (Project Overview Panel): On `.project-overview`, add
+           `grid gap-8 rounded-3xl bg-white/80 p-10 backdrop-blur-md md:grid-cols-[1.2fr_1fr]`.
+           This grid arranges project summary and metadata side-by-side while translucent background utilities form a glass panel effect. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrMg== -->
+      <section class="project-overview">
+        <div class="space-y-4">
+          <h2 class="text-4xl font-semibold">Redesigning the Onboarding Journey</h2>
+          <p class="text-lg text-slate-600">
+            Use refined spacing and color utilities to craft hierarchy and emphasize call-to-action items.
+          </p>
+          <button class="w-fit rounded-full px-8 py-3 font-semibold">
+            View Prototype
+          </button>
+        </div>
+        <aside class="space-y-3">
+          <div>
+            <span class="text-xs uppercase tracking-wider text-slate-500">Timeline</span>
+            <p class="text-base font-medium">Apr – Aug 2025</p>
+          </div>
+          <div>
+            <span class="text-xs uppercase tracking-wider text-slate-500">Role</span>
+            <p class="text-base font-medium">Lead Product Designer</p>
+          </div>
+          <div>
+            <span class="text-xs uppercase tracking-wider text-slate-500">Tools</span>
+            <p class="text-base font-medium">Figma, Tailwind, Framer</p>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Task 3 (Call-to-Action Button): Target the `button` inside `.project-overview` and add
+           `bg-gradient-to-r from-violet-500 to-indigo-500 text-white shadow-lg shadow-indigo-200/50 hover:shadow-xl`.
+           Gradients reinforce the primary CTA; layered shadows simulate lighting. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrMw== -->
+
+      <!-- Task 4 (Metadata Labels): Apply `text-slate-400 font-semibold` to each `span` label in the aside.
+           These utilities lighten the label tone and increase weight for better readability. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrNA== -->
+
+      <section class="rounded-3xl border border-slate-300 bg-white p-10">
+        <h3 class="text-2xl font-semibold">Process</h3>
+        <p class="mt-3 text-slate-600">
+          Structure content using vertical rhythm utilities (`space-y-*`) to maintain consistent breathing room.
+        </p>
+        <div class="mt-8 space-y-6">
+          <div class="rounded-2xl border border-slate-200 p-6">
+            <h4 class="text-lg font-semibold">1. Discovery</h4>
+            <p class="mt-2 text-sm text-slate-600">
+              Interviews, shadowing sessions, and a heuristic audit shaped the roadmap.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 p-6">
+            <h4 class="text-lg font-semibold">2. Prototyping</h4>
+            <p class="mt-2 text-sm text-slate-600">
+              High-fidelity motion comps validated the revised onboarding story.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 p-6">
+            <h4 class="text-lg font-semibold">3. Delivery</h4>
+            <p class="mt-2 text-sm text-slate-600">
+              Redlined specs, tokenized Figma library, and Tailwind component handoff.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 5 (Floating Testimonial): Inside `.hero-media`, add a positioned `<figure>` with `absolute bottom-6 left-6 max-w-xs rounded-2xl bg-white/95 p-4 drop-shadow-xl backdrop-blur` to showcase a client quote floating over the imagery. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrNQ== -->
+
+      <!-- Task 6 (Hero Motion): Turn `.hero-media` into an interactive group by adding `group relative` and apply `transition-transform duration-700 ease-out group-hover:scale-[1.02]` to the `<img>` so it gently zooms on hover. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrNg== -->
+
+      <!-- Task 7 (Metadata Alignment): Update the `<aside>` with `md:flex md:items-start md:space-y-0 md:space-x-8` to lay out timeline, role, and tools horizontally on wider screens. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrNw== -->
+
+      <!-- Task 8 (Sticky Progress Indicator): Prepend the main content with a `div` using `sticky top-10 h-36 w-1 rounded-full bg-slate-200` and a nested gradient bar to serve as a scroll progress marker. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXRlbi10YXNrOA== -->
+    </main>
+  </body>
+</html>
+

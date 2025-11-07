@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Two – Tailwind Activity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-slate-100 text-slate-900">
+    <main class="mx-auto flex max-w-4xl flex-col gap-12 p-10">
+      <header class="text-center">
+        <h1 class="text-3xl font-bold">Card Layout Basics</h1>
+        <p class="mt-2 text-slate-600">
+          Enhance this simple product card with layout and spacing utilities.
+        </p>
+      </header>
+
+      <!-- Task 1 (Card Container): Add `max-w-md mx-auto rounded-2xl border border-slate-200 bg-white p-8`
+           to `.product-card`. These utilities center the card, add structure, and provide comfortable padding. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrMQ== -->
+      <section class="product-card">
+        <img
+          src="https://images.unsplash.com/photo-1585386959984-a4155228ef44?auto=format&fit=crop&w=900&q=80"
+          alt="Ceramic mug"
+          class="w-full rounded-xl object-cover"
+        />
+
+        <!-- Task 2 (Image Styling): Apply `h-56 object-cover rounded-xl` to the `<img>` above.
+             This fixes the height, maintains aspect, and softens the corners. -->
+        <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrMg== -->
+
+        <div class="mt-6 space-y-4">
+          <h2 class="text-2xl font-semibold">Handcrafted Mug</h2>
+          <p class="text-slate-600">
+            Wheel-thrown stoneware with a speckled glaze finish. Dishwasher safe.
+          </p>
+          <div class="flex items-center justify-between">
+            <span class="text-xl font-semibold text-indigo-600">$36</span>
+            <button class="rounded-lg px-5 py-2 font-semibold">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 3 (Price Styling): Add `text-2xl font-bold text-indigo-600` to the price span to make pricing prominent. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrMw== -->
+
+      <!-- Task 4 (CTA Button): Apply `bg-indigo-600 text-white hover:bg-indigo-700 transition` to the button for interactivity. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrNA== -->
+      <!-- Task 5 (Card Hover Effect): Apply `transition-shadow hover:shadow-lg` to the `.product-card` section so it gently elevates when hovered. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrNQ== -->
+
+      <!-- Task 6 (Responsive Button Row): On the `div.flex` wrapping the price and button, add `flex-col gap-3 sm:flex-row sm:items-center` to stack controls on small screens and align them horizontally on larger screens. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrNg== -->
+
+      <!-- Task 7 (Featured Badge): Insert a new `<span>` as the first child inside `.product-card` with `absolute left-6 top-6 rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold text-indigo-700`. This creates a floating badge highlighting the product. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrNw== -->
+
+      <!-- Task 8 (Title Letterspacing): Add `tracking-wide` to the `<h2>` element so the product title breathes with wider letter spacing. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLXR3by10YXNrOA== -->
+    </main>
+  </body>
+</html>
+

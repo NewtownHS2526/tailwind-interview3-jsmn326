@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Eight – Tailwind Activity</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-amber-50 text-amber-950">
+    <div class="mx-auto max-w-4xl space-y-12 p-10">
+      <header class="space-y-4 text-center">
+        <h1 class="text-3xl font-bold">Café Menu Microsite</h1>
+        <p class="text-amber-700">
+          Practice typography and spacing utilities to craft a tasteful menu presentation.
+        </p>
+      </header>
+
+      <!-- Task 1 (Hero Panel): Add `bg-white shadow-[0_30px_80px_-40px_rgba(217,119,6,0.45)] rounded-3xl border border-amber-200`
+           to this `.hero-panel`. These utilities create a lifted card with soft edges; the custom shadow value simulates
+           diffused overhead lighting. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2sx -->
+      <section class="hero-panel p-12">
+        <h2 class="text-4xl font-semibold">Autumn Specials</h2>
+        <p class="mt-3 text-lg text-amber-700">
+          Let the hero breathe with generous padding and a warm neutral backdrop.
+        </p>
+      </section>
+
+      <!-- Task 2 (Menu Grid): On the `div.menu-grid`, apply `grid grid-cols-1 gap-8 md:grid-cols-2`.
+           This establishes a responsive menu layout, introducing more columns at medium breakpoints while preserving roomy spacing. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2sy -->
+      <section>
+        <h3 class="text-2xl font-semibold">Featured Drinks</h3>
+        <div class="menu-grid mt-6">
+          <article class="rounded-2xl border border-amber-200 bg-white p-6">
+            <header class="flex items-center justify-between">
+              <h4 class="text-xl font-semibold">Maple Latte</h4>
+              <span class="text-amber-600">$5.50</span>
+            </header>
+            <p class="mt-3 text-sm text-amber-700">
+              Maple syrup, oat milk, double shot espresso, cinnamon dust.
+            </p>
+          </article>
+          <article class="rounded-2xl border border-amber-200 bg-white p-6">
+            <header class="flex items-center justify-between">
+              <h4 class="text-xl font-semibold">Spiced Cider</h4>
+              <span class="text-amber-600">$4.25</span>
+            </header>
+            <p class="mt-3 text-sm text-amber-700">
+              Pressed apples, cloves, orange peel, vanilla bean, steam.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Task 3 (Menu Item Accents): Target each `span` containing prices and apply
+           `font-semibold tracking-wide text-amber-500`. These utilities emphasize price points with brighter color and spacing. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2sz -->
+
+      <!-- Task 4 (Hero Subheading): Apply `text-amber-600/80 max-w-xl` to the paragraph inside `.hero-panel`.
+           This softens the text hue and constrains width for better legibility. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2s0 -->
+
+      <section class="rounded-3xl border border-amber-200 bg-white/70 p-10">
+        <h3 class="text-2xl font-semibold">Chef&apos;s Tip</h3>
+        <p class="mt-3 text-amber-700">
+          Combine font weight and uppercase utilities to sculpt a hierarchy between item names and descriptors.
+        </p>
+      </section>
+
+      <!-- Task 5 (Playful Accent): Make `.hero-panel` feel hand-crafted by adding `relative overflow-hidden before:absolute before:-right-16 before:-top-10 before:h-48 before:w-48 before:-rotate-12 before:rounded-full before:bg-amber-300/20 before:blur-3xl before:content-['']`. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2s1 -->
+
+      <!-- Task 6 (Paper Texture): Apply `bg-gradient-to-b from-amber-50 via-white to-amber-100` to the `<body>` so the background mimics a warm paper fade. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2s2 -->
+
+      <!-- Task 7 (Menu Separators): Add `divide-y divide-amber-100 md:divide-y-0 md:divide-x md:divide-amber-100` to `.menu-grid` to delineate offerings without heavy borders. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2s3 -->
+
+      <!-- Task 8 (Seasonal Bounce): Give the first price badge a festive motion by adding `animate-bounce` to the `$5.50` `<span>`. -->
+      <!-- tw:YWktc2lnbmFsLWxldmVsLWVpZ2h0LXRhc2s4 -->
+    </div>
+  </body>
+</html>
+
